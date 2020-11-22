@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <title>BEST © Arturo B. Mart&iacute;n</title>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Julius+Sans+One&family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/master.css">
-    <script src="https://kit.fontawesome.com/e6dc47c4f5.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-
-    <header>
-      <article>
-        <p class="author">Arturo B. Mart&iacute;n</p>
-      </article>
-
-      <article id="sections">
-        <a href="/html/calculadora/calculadora.html">Calculadora</a>
-        <a href="#">Formularios</a>
-        <a href="#">Opciones</a>
-      </article>
-    </header>
+<?php require 'head.html' ?>
 
     <main>
       <article id="about_me">
@@ -67,20 +46,6 @@
       </article>
     </main>
 
-    <footer>
-      <article class="logo">
-        <h2>The Best</h2>
-      </article>
-
-      <article id="credits">
-
-      </article>
-
-      <article class="author">
-        <p>Arturo B. Mart&iacute;n</p>
-      </article>
-    </footer>
-
     <script type="text/javascript">
 
       function aboutMe()
@@ -89,5 +54,5 @@
         aboutMe.classList.toggle("hidden");
       }
     </script>
-  </body>
-</html>
+
+<?php require 'foot.html' ?>

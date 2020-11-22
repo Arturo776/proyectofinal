@@ -22,7 +22,7 @@
   margin-bottom: 2em;
 } #about_me > section {
   padding: 4em 0;
-} #about_me > section > button {
+} #about_me > section > button, #subscribe {
   color: white;
   cursor: pointer;
   background: orange;
@@ -30,7 +30,7 @@
   transition: background 0.5s;
   padding: 1em 2em;
   font-size: 15px;
-} #about_me > section > button:hover {
+} #about_me > section > button:hover, #subscribe:hover {
   background: #ffc87c;
 }
 
@@ -63,6 +63,27 @@
   text-align: justify;
   text-indent: 2em;
   padding-bottom: 1em;
+}
+
+#formulary {
+  background: url('/mmedia/images/mountains.jpg') no-repeat center/cover;
+} #formulary > article > form {
+  width: 50%;
+} #formulary > article > form > fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid orange;
+  border-style: none none none solid;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 4em;
+  margin: 4em;
+} #formulary > article > form > fieldset > input {
+  text-align: center;
+  padding: 1em 0;
+  margin: 1em 0;
+  border: 1px solid lightgray;
+  border-radius: 10px;
 }
 
 #sections {
