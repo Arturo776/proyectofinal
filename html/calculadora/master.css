@@ -1,0 +1,128 @@
+:root {
+  --title: 'Xanh Mono', monospace;
+}
+
+* {
+  font-family: Arial;
+  cursor: default;
+  margin: 0; padding: 0;
+}
+
+header, footer {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 0;
+} #title {
+  color: coral;
+  font-weight: bold;
+  font-family: var(--title);
+  padding-right: 4em;
+} header > article {
+  padding: 0 4em;
+}
+
+footer {
+  position: fixed;
+  background: coral;
+  padding: 2em 0;
+  bottom: 0; left: 0;
+  width: 100%;
+} #author {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0;
+}
+
+a {
+  color: orange;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid orange;
+  border-radius: 50%;
+  padding: 0.2em 0.5em;
+}
+
+i {
+  cursor: pointer;
+}
+
+/*************
+  CALCULATOR
+*************/
+
+#calculator {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid lightgray;
+  border-radius: 5%;
+  padding: 2em; margin: 0 4em;
+  max-width: 50%;
+}
+
+#operation {
+  text-align: center;
+  cursor: text;
+  font-size: 30px;
+  padding: 1em 0;
+  width: 100%;
+}
+
+#tokens {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0 1em 0;
+} #tokens > section {
+  max-width: 33%;
+}
+
+#numbers > button {
+  transition: transform 0.1s;
+  border: 1px solid coral;
+  margin: 0.1em 0;
+} #numbers > button:hover {
+  transform: scale(0.9);
+}
+
+#symbols {
+  text-align: center;
+} #symbols > button {
+  border: none;
+  font-weight: bold;
+  color: coral;
+  transition: transform 0.4s;
+  height: 100%;
+} #symbols > button:hover {
+  transform: scale(2);
+}
+
+#result {
+  text-align: center;
+  font-family: var(--title);
+  font-size: 24px;
+  padding: 1em 0 0.5em 0;
+}
+
+#calculate > button {
+  border: none;
+  color: coral;
+  transition: transform 0.5s;
+  height: 100%;
+} #calculate > button:hover {
+  transform: scale(2);
+}
+
+button {
+  cursor: pointer;
+  background: inherit;
+  padding: 1em;
+}

@@ -1,0 +1,127 @@
+/*
+1ra sección: :root
+2da sección: *
+3ra sección: IDs
+4ta sección: clases
+5ta sección: tags
+*/
+
+:root {
+  --title: 'Julius Sans One', sans-serif;
+  --section: 'Montserrat', sans-serif;
+  --logo: 'Dancing Script', cursive;
+}
+
+* {
+  padding: 0; margin: 0;
+}
+
+#about_me {
+  background: url('/mmedia/images/mountains.jpg') no-repeat center/cover;
+  margin-top: 4em;
+  margin-bottom: 2em;
+} #about_me > section {
+  padding: 4em 0;
+} #about_me > section > button {
+  color: white;
+  cursor: pointer;
+  background: orange;
+  border: none;
+  transition: background 0.5s;
+  padding: 1em 2em;
+  font-size: 15px;
+} #about_me > section > button:hover {
+  background: #ffc87c;
+}
+
+#aboutMe {
+  font-family: arial;
+  text-align: justify;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 3%;
+  text-indent: 2em;
+  transition: 0.5s;
+  font-size: 14px;
+  padding: 3em;
+  margin: 0 4em;
+} #aboutMe > p {
+  padding: 1em 4em;
+}
+
+#my_habilities, #my_virtues {
+  display: flex;
+  justify-content: space-between;
+} #my_habilities > section, #my_virtues > section {
+  font-family: var(--section);
+  text-align: center;
+  padding: 1em 2em;
+  width: 33.3%;
+} #my_habilities > section > h2, #my_virtues > section > h2 {
+  padding: 1em 0;
+} #my_virtues > section > p {
+  text-align: justify;
+  text-indent: 2em;
+  padding-bottom: 1em;
+}
+
+#sections {
+  padding: 0 2em;
+} #sections > a {
+  padding: 0 1em;
+}
+
+#author {
+  padding: 0 4em;
+}
+
+.logo {
+  font-family: var(--logo);
+  padding: 0 4em;
+}
+
+.author {
+  font-family: var(--title);
+  padding: 0 4em;
+}
+
+.lightgreen {
+  border-top: 10px solid lightgreen;
+}
+
+.lightblue {
+  border-top: 10px solid lightblue;
+}
+
+.orange {
+  border-top: 10px solid orange;
+}
+
+.hidden {
+  transition: display 1s;
+  display: none;
+}
+
+main {
+  padding: 4em 0;
+} main > article {
+  text-align: center;
+  padding: 4em;
+}
+
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 2em 0;
+} header {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: var(--section);
+}

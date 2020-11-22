@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+    <script src="https://kit.fontawesome.com/e6dc47c4f5.js" crossorigin="anonymous"></script>
+    <title>Calculadora © Arturo B. Mart&iacute;n™</title>
+  </head>
+  <body>
+
+    <header>
+      <article>
+        <a href="/index.php"><i class="fas fa-chevron-left"></i></a>
+      </article>
+      <article>
+        <h1 id="title">Calculadora</h1>
+      </article>
+    </header>
+
+    <main>
+      <article id="calculator">
+        <input id="operation" type="text" value="">
+
+        <div id="tokens">
+          <section id="numbers">
+            <button type="button" onclick="addNumber(1)">1</button>
+            <button type="button" onclick="addNumber(2)">2</button>
+            <button type="button" onclick="addNumber(3)">3</button>
+            <button type="button" onclick="addNumber(4)">4</button>
+            <button type="button" onclick="addNumber(5)">5</button>
+            <button type="button" onclick="addNumber(6)">6</button>
+            <button type="button" onclick="addNumber(7)">7</button>
+            <button type="button" onclick="addNumber(8)">8</button>
+            <button type="button" onclick="addNumber(9)">9</button>
+            <button type="button" onclick="addNumber(0)">0</button>
+          </section>
+          <section id="symbols">
+            <button type="button" onclick="addToken('+')"><i class="fas fa-plus"></i></button>
+            <button type="button" onclick="addToken('-')"><i class="fas fa-minus"></i></button>
+            <button type="button" onclick="addToken('*')"><i class="fas fa-times"></i></button>
+            <button type="button" onclick="addToken('/')"><i class="fas fa-divide"></i></button>
+          </section>
+          <section id="calculate">
+            <button type="button" onclick="Erase()"><i class="fas fa-backspace"></i></button>
+            <button type="button" onclick="Calculate()"><i class="fa fa-equals"></i></button>
+          </section>
+        </div>
+      </article>
+
+    </main>
+
+    <footer>
+      <article id="author">
+        <p>Calculadora © Arturo B. Mart&iacute;n™</p>
+      </article>
+    </footer>
+
+    <script src="master.js" type="text/javascript"></script>
+  </body>
+</html>
