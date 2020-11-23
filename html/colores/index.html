@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <title>Colores © Arturo B. Mart&iacute;n</title>
+  </head>
+  <body>
+    <header>
+      <article>
+        <a href="/">&laquo;</a>
+      </article>
+      <article>
+        <h1>Colores</h1>
+      </article>
+    </header>
+
+    <main>
+      <article id="1" class="cuadrado azul">
+        <button onclick="moveLeft(1)" type="button" name="button">&laquo;</button>
+        <button onclick="moveRight(1)" type="button" name="button">&raquo;</button>
+        <button onclick="moveUp(1)" type="button" name="button">arriba</button>
+        <button onclick="moveDown(1)" type="button" name="button">abajo</button>
+      </article>
+      <article id="2" class="cuadrado verde">
+        <button onclick="moveLeft(2)" type="button" name="button">&laquo;</button>
+        <button onclick="moveRight(2)" type="button" name="button">&raquo;</button>
+        <button onclick="moveUp(2)" type="button" name="button">arriba</button>
+        <button onclick="moveDown(2)" type="button" name="button">abajo</button>
+      </article>
+      <article id="3" class="cuadrado naranja">
+        <button onclick="moveLeft(3)" type="button" name="button">&laquo;</button>
+        <button onclick="moveRight(3)" type="button" name="button">&raquo;</button>
+        <button onclick="moveUp(3)" type="button" name="button">arriba</button>
+        <button onclick="moveDown(3)" type="button" name="button">abajo</button>
+      </article>
+    </main>
+
+    <footer>
+      <h2>Colores © Arturo B. Mart&iacute;n</h2>
+    </footer>
+
+    <script type="text/javascript">
+      function moveLeft(id)
+      {
+        let container = document.getElementById(id);
+        container.style.transform = "translateX(-500px)";
+      }
+
+      function moveRight(id)
+      {
+        let container = document.getElementById(id);
+        container.style.transform = "translateX(500px)";
+      }
+
+      function moveUp(id)
+      {
+        let container = document.getElementById(id);
+        container.style.transform = "translateY(-200px)";
+      }
+
+      function moveDown(id)
+      {
+        let container = document.getElementById(id);
+        container.style.transform = "translateY(200px)";
+      }
+    </script>
+  </body>
+</html>
