@@ -1,0 +1,38 @@
+Arturo Bautista Martín
+
+
+Guía de estilos para mi proyecto de fin de curso
+
+Índice
+
+1. Colores principales y cuándo utilizarlos
+
+	Los colores principales de la página son el blanco, el azul pastel, el verde claro pastel y el naranja. Estos colores se han escogido por ser estéticos y suaves, y por encajar perfectamente con el espíritu calmado de la página. Además, son colores que se asemejan a los que podemos encontrar en la naturaleza, por lo que quedan bien acompañando a las imágenes de paisajes que tiene la página.
+
+
+2. Disposición de los elementos
+
+	Los elementos se dispondrán en filas dentro de la página, siendo la primera fila el encabezado (logotipo y menú); la segunda fila siempre un enlace o botón interactivo con una imagen de fondo, que no enviará a una página de interés o revelará contenido. La tercera fila será una sección con información relevante.
+
+
+3. Uso de imágenes o fondos blancos
+
+	El encabezado y el pie de página siempre tendrán fondo blanco. Los artículos incrustados en la página tendrán fondo blanco, con un borde de algún color de los propuestos en el apartado 1º, para ser fácilmente distinguibles a primera vista.
+
+	La segunda fila de cada página (enlaces o botones interactivos) siempre tendrán una imagen de un paisaje de fondo.
+
+
+4. Alineación del texto
+
+	Los enlaces, botones, logotipos e iconos siempre irán centrados. Los párrafos tendrán una alineación “justify”.
+
+
+5. Márgenes y padding
+
+	Debe haber siempre un padding lateral para separar el contenido de los márgenes del navegador. Cada sección de la página deberá tener un “padding-bottom” superior al “padding-top”, para trasmitir una mejor sensación de movimiento al bajar por la página.
+
+6. Efectos y bordes
+
+	Los formularios sólo tendrán un borde izquierdo de algún color de los propuestos. Las secciones tendrán un borde superior, también de los colores propuestos.
+
+	Los efectos aplicados son para suavizar el movimiento de los elementos de la página y para reaccionar al movimiento del cursor, principalmente con cambios de colores o en el aspecto del cursor.
