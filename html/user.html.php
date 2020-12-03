@@ -33,10 +33,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     <main id="user_options">
       <article>
-        <h2>¡Bienvenido!, como ves el formulario funciona <i class="fas fa-smile-face"></i></h2>
+        <h2 class="orange-background">¡Bienvenido!, como ves el formulario funciona <i class="fas fa-smile-face"></i></h2>
       </article>
       <article>
-        <h2>Aqu&iacute; puedes cambiar ciertas cosas de la p&aacute;gina para que te resulte m&aacute;s c&oacute;modo navegar por ella:</h2>
+        <h2>Espero que te agrade la est&eacute;tica y funcionalidad de este sitio web.</h2>
       </article>
     </main>
 
