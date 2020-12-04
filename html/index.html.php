@@ -16,8 +16,8 @@
           <div>
             <h2>Aptitudes</h2>
             <ul>
-              <li>T&iacute;tulo de ingl&eacute;s nivel B2</li>
               <li>Experiencia laboral en la empresa Hiniestic (2019-2021)</li>
+              <li>T&iacute;tulo de ingl&eacute;s nivel B2</li>
             </ul>
           </div>
           <div>
@@ -29,9 +29,10 @@
             <h2>Aspectos fuertes</h2>
             <ul>
               <li>Disfruto aprendiendo cosas nuevas</li>
-              <li>Trabajador</li>
+              <li>Aprendo r&aacute;pido</li>
               <li>Incoporo lo aprendido en posteriores proyectos</li>
               <li>Me gusta seguir directrices</li>
+              <li>Soy trabajador</li>
             </ul>
           </div>
           <div>

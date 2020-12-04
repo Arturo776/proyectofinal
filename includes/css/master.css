@@ -150,10 +150,12 @@
 } #formulary_info {
   text-align: center;
   color: #fff;
-  padding: 4em; margin: 4em;
-  border-radius: 10px;
-  background: rgba(255, 150, 0, 0.7);
+  padding: 0 4em; margin: 4em;
+  border-left: 10px solid orange;
+  background: rgba(0, 0, 0, 0.5);
   font-size: 25px;
+} #formulary_info > p {
+  margin: 50% 0;
 }
 
 #author {
@@ -262,6 +264,10 @@ a {
 
 p, ul, button {
   font-family: var(--Roboto);
+}
+
+p, h1, h2, li {
+  cursor: default;
 }
 
 i {
