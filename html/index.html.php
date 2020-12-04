@@ -1,4 +1,4 @@
-<?php require 'head.html' ?>
+<?php require 'head.html.php' ?>
 
     <main>
       <article id="about_me">

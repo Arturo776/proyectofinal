@@ -1,4 +1,11 @@
 <?php
+session_start();
+
+if (isset($_SESSION["user"]))
+{
+  header ('Location: /');
+}
+
 require '../db/DataBase.php';
 
 $error = false;
@@ -37,6 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
       $user = $db->getUser($email, $password);
       if (!empty($user))
       {
+        $_SESSION["user"] = $user;
         header("Location: user.html.php");
       }
       else {
@@ -50,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 }
 ?>
 
-<?php require 'head.html' ?>
+<?php require 'head.html.php' ?>
 
     <main id="formulary">
       <article>

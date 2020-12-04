@@ -28,7 +28,6 @@
         <a href="../calculadora/calculadora.html.php">Calculadora</a>
         <a href="../formulario.html.php">Formularios</a>
         <a href="../colores/index.html">Colores</a>
-        <a href="../entrar.html.php">Opciones</a>
       </section>
       <section id="menu" class="hidden">
         <button type="button" onclick="showMenu()">

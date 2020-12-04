@@ -28,6 +28,7 @@
         <a href="/html/calculadora/calculadora.html.php">Calculadora</a>
         <a href="/html/formulario.html.php">Formularios</a>
         <a href="/html/colores/index.html">Colores</a>
+        <?php echo (isset($_SESSION["user"])) ? '<a href="/html/logout.php">Cerrar sesi&oacute;n</a>' : ''; ?>
       </section>
       <section id="menu" class="hidden">
         <button type="button" onclick="showMenu()">
